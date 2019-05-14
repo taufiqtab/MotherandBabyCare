@@ -15,19 +15,59 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Mother & Baby Care");
+        actionBar.setTitle("Menu Utama");
 
-        Button buttonArtikel = (Button) findViewById(R.id.tombolMitosFakta);
-        buttonArtikel.setOnClickListener(new View.OnClickListener(){
+        Button buttonMotherCare = (Button) findViewById(R.id.buttonMotherCare);
+        buttonMotherCare.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                openArticle();
+                openMotherCare();
+            }
+        });
+
+        Button buttonBabyCare = (Button) findViewById(R.id.buttonBabyCare);
+        buttonBabyCare.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openBabyCare();
+            }
+        });
+
+        Button buttonConsult = (Button) findViewById(R.id.buttonConsult);
+        buttonConsult.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openConsult();
+            }
+        });
+
+        Button buttonMitosFakta = (Button) findViewById(R.id.tombolMitosFakta);
+        buttonMitosFakta.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openFaktaMitos();
             }
         });
     }
 
-    public void openArticle(){
-        Intent artikel = new Intent(MainActivity.this, ContohArtikel.class);
-        startActivity(artikel);
+    public void openMotherCare(){
+        Intent act = new Intent(MainActivity.this, MotherCare.class);
+        startActivity(act);
     }
+
+    public void openBabyCare(){
+        Intent act = new Intent(MainActivity.this, BabyCare.class);
+        startActivity(act);
+    }
+
+    public void openConsult(){
+        Intent act = new Intent(MainActivity.this, Consult.class);
+        startActivity(act);
+    }
+
+    public void openFaktaMitos(){
+        Intent act = new Intent(MainActivity.this, FaktaMitos.class);
+        startActivity(act);
+    }
+
 }

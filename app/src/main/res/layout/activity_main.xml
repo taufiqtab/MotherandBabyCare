@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonMotherCare"
             style="@android:style/Widget.DeviceDefault.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
@@ -34,7 +34,7 @@
             android:layout_height="30dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonBabyCare"
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:text="Baby Care" />
@@ -44,7 +44,7 @@
             android:layout_height="30dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonConsult"
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:text="Consult" />

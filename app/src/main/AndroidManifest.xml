@@ -9,13 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FaktaMitos"></activity>
-        <activity android:name=".Consult" />
-        <activity android:name=".BabyCare" />
-        <activity android:name=".MotherCare" />
+        <activity android:name=".FaktaMitos"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".Consult"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".BabyCare"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MotherCare"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".ContohArtikel"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".FaktaMitos" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
