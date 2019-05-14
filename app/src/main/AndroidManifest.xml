@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ContohArtikel"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".FaktaMitos"></activity>
+        <activity android:name=".Consult" />
+        <activity android:name=".BabyCare" />
+        <activity android:name=".MotherCare" />
+        <activity
+            android:name=".ContohArtikel"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
