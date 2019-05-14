@@ -20,13 +20,22 @@ public class FaktaMitos extends AppCompatActivity {
         bottonFaktaMitos1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                openArticle();
+                openArticle("fakta_mitos_1.html");
+            }
+        });
+
+        Button bottonFaktaMitos2 = (Button) findViewById(R.id.buttonFaktaMitos2);
+        bottonFaktaMitos2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openArticle("fakta_mitos_2.html");
             }
         });
     }
 
-    public void openArticle(){
+    public void openArticle(String pages){
         Intent artikel = new Intent(FaktaMitos.this, ContohArtikel.class);
+        artikel.putExtra("PAGES", pages);
         startActivity(artikel);
     }
 }

@@ -17,6 +17,8 @@ public class ContohArtikel extends AppCompatActivity {
         article = (WebView)findViewById(R.id.webviewartikel);
         article.getSettings().setBuiltInZoomControls(true);
         article.getSettings().setDisplayZoomControls(false);
-        article.loadUrl("file:///android_asset/artikel1.html");
+        String pages = getIntent().getStringExtra("PAGES");
+        String url = "file:///android_asset/" + pages;
+        article.loadUrl(url);
     }
 }
