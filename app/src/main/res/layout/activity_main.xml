@@ -54,7 +54,7 @@
             android:layout_height="30dp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/tombolMitosFakta"
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:text="Mitos vs Fakta" />
