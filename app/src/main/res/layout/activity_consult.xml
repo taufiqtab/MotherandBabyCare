@@ -7,50 +7,34 @@
     android:background="@drawable/bgcons"
     tools:context=".Consult">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="232dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="155dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="198dp"
-        android:layout_marginBottom="27dp"
-        android:text="BIDAN FITRIA PUTI AYU GITASARI"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/chatNow"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="296dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="155dp"
-        android:layout_marginTop="193dp"
-        android:layout_marginEnd="198dp"
-        android:layout_marginBottom="13dp"
-        android:text="Untuk Konsultasi Kesehatan Ibu dan Anak. Hubungi Bagian Rawat Inap Kebidanan Ruang Melati dan Ruang Dahlia. CP : "
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.371"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/chatNow"
         style="@android:style/Widget.Button"
         android:layout_width="185dp"
         android:layout_height="75dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="286dp"
+        android:layout_marginBottom="150dp"
         android:text="Chat Sekarang"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="339dp"
+        android:layout_height="299dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/chatNow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contacts" />
+
 </android.support.constraint.ConstraintLayout>
