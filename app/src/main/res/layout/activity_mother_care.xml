@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9C27B0"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,7 +25,7 @@
 
         <Button
             android:id="@+id/btnMotherCare1"
-            style="@android:style/Widget.DeviceDefault.Button"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Asupan Nutrisi Bagi Ibu" />
@@ -35,6 +36,7 @@
 
         <Button
             android:id="@+id/btnMotherCare2"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Perawatan Luka Post Operasi Sesar dan Luka Jahit Perineum" />
@@ -45,6 +47,7 @@
 
         <Button
             android:id="@+id/btnMotherCare3"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Mengurangi Nyeri" />
@@ -55,6 +58,7 @@
 
         <Button
             android:id="@+id/btnMotherCare4"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Kebersihan Diri (Vulva Hygiene)" />
@@ -65,6 +69,7 @@
 
         <Button
             android:id="@+id/btnMotherCare5"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Melakukan Perawatan Payudara" />
@@ -75,6 +80,7 @@
 
         <Button
             android:id="@+id/btnMotherCare6"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Tanda Bahaya Pada Ibu Nifas" />

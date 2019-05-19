@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background1"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,7 +25,7 @@
 
         <Button
             android:id="@+id/buttonMotherCare"
-            style="@android:style/Widget.DeviceDefault.Button"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:text="Mother Care" />
@@ -35,6 +36,7 @@
 
         <Button
             android:id="@+id/buttonBabyCare"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:text="Baby Care" />
@@ -45,6 +47,7 @@
 
         <Button
             android:id="@+id/buttonConsult"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:text="Consult" />
@@ -55,6 +58,7 @@
 
         <Button
             android:id="@+id/tombolMitosFakta"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
             android:text="Mitos vs Fakta" />

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background1"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,7 +25,7 @@
 
         <Button
             android:id="@+id/btnBabyCare1"
-            style="@android:style/Widget.DeviceDefault.Button"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Merawat Bayi" />
@@ -35,6 +36,7 @@
 
         <Button
             android:id="@+id/btnBabyCare2"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Menjemur Bayi" />
@@ -45,6 +47,7 @@
 
         <Button
             android:id="@+id/btnBabyCare3"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Menyusui Bayi" />
@@ -55,6 +58,7 @@
 
         <Button
             android:id="@+id/btnBabyCare4"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Memandikan Bayi" />
@@ -65,6 +69,7 @@
 
         <Button
             android:id="@+id/btnBabyCare5"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Cara Merawat Tali Pusar" />
@@ -75,6 +80,7 @@
 
         <Button
             android:id="@+id/btnBabyCare6"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Tanda Bahaya Pada Bayi Baru Lahir" />

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgcons"
     tools:context=".FaktaMitos">
 
     <LinearLayout
@@ -24,7 +25,7 @@
 
         <Button
             android:id="@+id/buttonFaktaMitos1"
-            style="@android:style/Widget.DeviceDefault.Button"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Mitos Dan Fakta Ibu Pasca Melahirkan" />
@@ -35,6 +36,7 @@
 
         <Button
             android:id="@+id/buttonFaktaMitos2"
+            style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="Mitos Dan Fakta Perawatan Bayi Baru Lahir" />
