@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9C27B0"
+    android:background="@drawable/background1"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -28,6 +28,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
+            android:background="@drawable/button_border"
             android:text="Cara Asupan Nutrisi Bagi Ibu" />
 
         <Space
@@ -39,6 +40,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
+            android:background="@drawable/button_border"
             android:text="Cara Perawatan Luka Post Operasi Sesar dan Luka Jahit Perineum" />
 
         <Space
@@ -50,6 +52,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
+            android:background="@drawable/button_border"
             android:text="Cara Mengurangi Nyeri" />
 
         <Space
@@ -61,6 +64,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
+            android:background="@drawable/button_border"
             android:text="Cara Kebersihan Diri (Vulva Hygiene)" />
 
         <Space
@@ -72,6 +76,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
+            android:background="@drawable/button_border"
             android:text="Cara Melakukan Perawatan Payudara" />
 
         <Space
@@ -83,6 +88,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="80dp"
+            android:background="@drawable/button_border"
             android:text="Tanda Bahaya Pada Ibu Nifas" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -16,6 +16,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="150dp"
+        android:background="@drawable/button_border"
         android:text="Chat Sekarang"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,8 +25,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="339dp"
-        android:layout_height="299dp"
+        android:layout_width="410dp"
+        android:layout_height="374dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="77dp"
@@ -35,6 +36,6 @@
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/contacts" />
+        app:srcCompat="@drawable/consult2" />
 
 </android.support.constraint.ConstraintLayout>

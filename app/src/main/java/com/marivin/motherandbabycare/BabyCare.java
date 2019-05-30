@@ -63,6 +63,14 @@ public class BabyCare extends AppCompatActivity {
                 openArticle("baby_care_6.html");
             }
         });
+
+        Button btnArtikel7 = (Button) findViewById(R.id.btnBabyCare7);
+        btnArtikel7.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openArticle("baby_care_7.html");
+            }
+        });
     }
 
     public void openArticle(String pages){

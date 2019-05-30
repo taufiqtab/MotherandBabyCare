@@ -28,6 +28,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
+            android:background="@drawable/button_border"
             android:text="Mother Care" />
 
         <Space
@@ -39,6 +40,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
+            android:background="@drawable/button_border"
             android:text="Baby Care" />
 
         <Space
@@ -50,6 +52,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
+            android:background="@drawable/button_border"
             android:text="Consult" />
 
         <Space
@@ -61,6 +64,7 @@
             style="@android:style/Widget.Button"
             android:layout_width="250dp"
             android:layout_height="100dp"
+            android:background="@drawable/button_border"
             android:text="Mitos vs Fakta" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
